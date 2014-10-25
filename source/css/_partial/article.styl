@@ -1,0 +1,171 @@
+.article
+  padding-top 40px
+  header
+    margin-bottom 1.5em
+  .article-meta
+    font-size 0.9em
+    color #333
+  h3
+    a.article-title
+      font-size 30px
+      font-weight bold
+      line-height 1.2
+      margin-left 0
+      text-align left
+      border-bottom 0
+      color color-title
+      @media mq-normal
+        font-size 21px
+  .article-entry
+    line-height line-height
+    @media mq-mobile
+      line-height 25px
+    h1, h2, h3, h4, h5, h6
+      padding-bottom 10px
+    h2
+      font-weight bold
+      color color-default
+      border-bottom 1px solid #e5e5e5
+      margin 50px 0 20px
+    h3
+      font-weight bold
+      color color-default
+      margin-bottom 18px
+    h6
+      color #777
+    p, li
+      color color-default
+    p
+      margin-top 10px
+      margin-bottom 1.5em
+    blockquote, ul, ol, dl, h1, h2, h3, h4, h5, h6, .video-container
+      margin-top 1.5em
+      p
+        margin-bottom 0
+    blockquote, ul, ol, dl
+      margin 1.5em 0
+    blockquote
+      font-size 85%
+      text-align center
+      border-left 5px solid color-grey
+      padding-left 10px
+      p
+        margin-bottom 1.5em
+        &:last-child
+          margin-bottom 0
+      footer
+        color #000
+        font-size 80%
+        margin line-height 0
+        font-family font-sans
+        cite
+          &:before
+            content "—"
+            padding 0 0.5em
+    ul, ol, dl
+      margin-left 20px
+      ul, ol, dl
+        margin-top 0
+    pre
+      padding 12px 15px
+    code
+      font-size 0.9em
+      font-weight 300
+      padding 0 3px
+      margin 1px 3px
+    code, pre
+      background #f5f5f5
+      border 1px solid #f5f5f5
+      font-family font-mono
+      color #555
+      overflow-x auto
+      border-radius 5px
+    img, video
+      max-width 100%
+      height auto
+      display block
+      margin auto
+    table
+      color color-default
+      margin 0
+      width 100%
+      border-collapse collapse
+      border-spacing 0
+    th
+      color black
+      font-weight bold
+      border-bottom 3px solid color-border
+      padding-bottom 0.5em
+    td
+      border-bottom 1px solid color-border
+      padding 10px 0
+    .video-container
+      position relative
+      padding-top (9 / 16 * 100)%
+      height 0
+      overflow hidden
+      iframe, object, embed
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+        margin-top 0
+    .pullquote
+      border-left 0
+      padding-left 0
+      font-size 110%
+      text-align left
+      width 45%
+      margin 0
+      &.left
+        margin-left 0.5em
+        margin-right 1em
+      &.right
+        margin-right 0.5em
+        margin-left 1em
+    .caption
+      color color-default
+      display block
+      font-size 0.8em
+      margin-top 0.5em
+      position relative
+      text-align center
+
+.article-tag-list
+  color lightgrey
+  padding 0
+  list-style-type none
+
+.article-tag-list-item
+  display inline-block
+  margin-right 10px
+  a
+    color lightgrey
+
+  &:before
+    content "#"
+
+.article-gallery
+  background #000
+  position relative
+  margin 1em 0
+  border-radius 8px
+
+.article-gallery-photos
+  position relative
+  overflow hidden
+
+.article-gallery-img
+  display none
+  max-width 100%
+  &:first-child
+    display block
+  &.loaded
+    position absolute
+    display block
+  img
+    display block
+    max-width 100%
+    margin 0 auto
+    border-radius 8px

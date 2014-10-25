@@ -1,0 +1,31 @@
+@charset "utf-8"
+@import "nib"
+@import "_bass/variables"
+global-reset()
+@import "_bass/extend"
+
+body
+  font-family font-sans
+  font-size font-size
+  font-weight 300
+  background color-background
+  line-height: line-height
+  @media mq-normal
+    width 60%
+    margin 0 auto
+  @media mq-tablet
+    font-size 100%
+    width 80%
+    margin 0 auto
+
+.inner
+  width max-width
+  margin 0 auto
+  @media mq-normal
+    width 100%
+
+@import "_partial/header"
+@import "_partial/archives"
+@import "_partial/article"
+@import "_bass/syntax"
+@import "_partial/footer"

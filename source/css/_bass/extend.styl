@@ -1,0 +1,113 @@
+a
+  color color-link
+  text-decoration none
+  transition border .25s linear
+  &:hover
+    color color-link
+
+strong, b
+  font-weight bold
+
+em
+  font-style italic
+
+code
+  text-shadow 0 1px #fff
+  padding 0 0.3em
+
+ul
+  list-style-type disc
+
+ol
+  list-style-type decimal
+
+del
+  text-decoration line-through
+
+sub, sup
+  font-size 75%
+  line-height 0
+  position relative
+
+root sub, root sup
+  vertical-align baseline
+
+sup
+  top -0.5em
+
+sub
+  bottom -0.2em
+
+acronym, abbr
+  border-bottom 1px dotted
+  font-variant normal
+
+abbr
+  cursor help
+
+hr
+  width 50%
+  margin 3em auto
+  border 0
+  border-bottom 5px solid color-border
+
+h1, h2, h3, h4, h5, h6
+  color color-title
+  font-weight bold
+  a
+    color color-title
+    text-decoration none
+    &:hover
+      color color-title
+
+h1
+  font-size 150%
+
+h2
+  font-size 140%
+  @media mq-normal
+    h2
+      font-size 25px
+  @media mq-tablet
+    h2
+      font-size 18px
+
+h3
+  font-size 120%
+
+h4
+  font-size 110%
+
+h5
+  font-size 100%
+
+h6
+  font-size 90%
+
+pre, code
+  font-family font-mono
+  font-size 1em
+
+table
+  border-collapse separate
+  border-spacing 0
+  vertical-align middle
+
+dt, dl
+  color color-default
+
+dt
+  font-weight bold
+
+small
+  color grey
+  font-size small
+
+.left, .alignleft
+  float left
+
+.right, .alignright
+  float right
+
+.clearfix
+  clearfix()
