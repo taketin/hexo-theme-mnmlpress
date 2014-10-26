@@ -3,6 +3,8 @@ Hexo theme: mnmlpress
 
 **This hexo theme is modified from [mnmlpress for Octopress](https://github.com/tcnksm/mnmlpress)**
 
+[Demo](http://xxxxxly.in/hexo-theme-mnmlpress/)
+
 ##Installation
 
 ###Install
